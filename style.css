@@ -1,0 +1,118 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(135deg, #082150, #071e46);
+}
+
+h2{
+    margin: 10px 0 5px;
+    color: white;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #134ad4;
+  position: relative;
+}
+.card {
+    background: #02132d;
+    padding: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 4);
+    border: 1px solid rgba(255, 255, 255,0.9);
+    color: rgb(7, 7, 7);
+}
+
+
+.profile-img {
+    display: block;
+    margin: 0px auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: inherit;
+    border: 4px solid #fff;
+}
+    
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
+.title {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
+.buttons {
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.follow {
+    background-color: rgb(11, 97, 245);
+    color:rgb(10, 10, 11);
+}
+
+
+.message {
+    background-color:white;
+    
+}
+
+
+.follow:hover {
+    background-color: white;
+}
+
+.message:hover {
+    background-color: #a9a1a1;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+
+.stats p {
+    margin: 0;
+    font-size: 18px;
+    color: #ccc;
+}
+.card:hover {
+    transform: translateY(-3px);
+    background: rgb(6, 42, 74);
+     
+}
